@@ -29,14 +29,27 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  max-width: 960px;
+}
+
 .home {
-  height: 100vh;
+  height: 90vh;
   background-color: black;
 }
 
 .container {
   max-width: 960px;
   margin: auto;
+  padding: 10px 0px 0px 0px;
 }
 
 .fa-chevron-right {
@@ -114,5 +127,76 @@
   font-family: "Montserrat", sans-serif;
   font-size: 50px;
   font-weight: bold;
+}
+
+.arrow {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 5vh;
+}
+
+.fa-info {
+  color: white;
+  font-size: 20px;
+}
+
+.fa-info:hover, .fa-caret-right:hover, .fa-facebook-square:hover, .fa-instagram:hover {
+  color: red;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.about {
+  height: 95vh;
+  background-color: black;
+}
+
+.next {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 5vh;
+  background-color: black;
+}
+
+.fa-caret-right {
+  color: white;
+  font-size: 35px;
+}
+
+.container_social_nav {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.fa-facebook-square, .fa-instagram {
+  color: white;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.about_tile {
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  color: white;
+}
+
+.about_description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
