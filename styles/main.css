@@ -50,7 +50,6 @@
   color: white;
   font-size: 150px;
   position: relative;
-  left: 81px;
 }
 
 .icon {
@@ -71,16 +70,19 @@
   margin-bottom: 60px;
   color: white;
   font-size: 170px;
+  left: -65px;
+  position: relative;
 }
 
 .fa-heart {
   position: relative;
-  -webkit-transition: 5s;
-  transition: 5s;
+  -webkit-transition: 1s;
+  transition: 1s;
   -webkit-animation: pulse 1s ease infinite;
           animation: pulse 1s ease infinite;
   color: red;
   font-size: 120px;
+  left: -24px;
 }
 
 .text {
