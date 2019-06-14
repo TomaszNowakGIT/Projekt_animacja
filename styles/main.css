@@ -40,13 +40,16 @@
 }
 
 .fa-chevron-right {
-  font-size: 150px;
   color: white;
+  font-size: 150px;
 }
 
 .fa-chevron-left {
-  font-size: 150px;
+  position: absolute;
+  left: 273px;
   color: white;
+  font-size: 150px;
+  left: 260px;
 }
 
 .icon {
@@ -62,27 +65,27 @@
 }
 
 .fa-window-minimize {
-  font-size: 170px;
-  color: white;
   -webkit-transform: rotate(-70deg);
           transform: rotate(-70deg);
   margin-bottom: 60px;
+  color: white;
+  font-size: 170px;
 }
 
 .fa-heart {
-  font-size: 120px;
-  color: red;
   position: relative;
-  -webkit-animation: pulse 1s ease infinite;
-          animation: pulse 1s ease infinite;
   -webkit-transition: 5s;
   transition: 5s;
+  -webkit-animation: pulse 1s ease infinite;
+          animation: pulse 1s ease infinite;
+  color: red;
+  font-size: 120px;
 }
 
 .text {
-  font-size: 50px;
   color: white;
   font-family: "Montserrat", sans-serif;
+  font-size: 50px;
   font-weight: bold;
 }
 
@@ -94,19 +97,19 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100vh;
 }
 
 .text2 {
-  font-size: 50px;
   color: white;
   font-family: "Montserrat", sans-serif;
+  font-size: 50px;
   font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */
