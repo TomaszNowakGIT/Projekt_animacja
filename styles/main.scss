@@ -16,13 +16,14 @@ $font-family: 'Montserrat', sans-serif;
     margin: auto;
 }
 .fa-chevron-right{
-    font-size: 150px;
     color:white;
+    font-size: 150px;
 }
 .fa-chevron-left{
-    font-size: 150px;
+    position: absolute;
+    left: 273px;
     color:white;
-   
+    font-size: 150px;
 }
 
 .icon {
@@ -31,39 +32,40 @@ $font-family: 'Montserrat', sans-serif;
     align-items: center;
 }
 .fa-window-minimize{
-    font-size: 170px;
-    color:white;
     transform: rotate(-70deg);
     margin-bottom: 60px;
+    color:white;
+    font-size: 170px;
     
 }
 .fa-heart{
-    font-size: 120px;
-    color: red;
     position: relative;
-    animation: pulse 1s ease infinite;
     transition: 5s;
+    animation: pulse 1s ease infinite;
+    color: red;
+    font-size: 120px;
 }
 
 .text{
-    font-size:50px;
+
     color: white;
     font-family: $font-family;
+    font-size:50px;
     font-weight: bold;
-  
   
 }
 .home_container{
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     height: 100vh;
 }
 .text2{
-    font-size:50px;
     color: white;
     font-family: $font-family;
+    font-size:50px;
     font-weight: bold;
    
 }
