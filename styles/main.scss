@@ -94,7 +94,7 @@ body{
     color: white;
     font-size: 20px
 }
-.fa-info:hover,.fa-caret-right:hover,.fa-facebook-square:hover,.fa-instagram:hover{
+.fa-info:hover,.fa-caret-right:hover,.fa-facebook-square:hover,.fa-instagram:hover,.fa-volume-mute:hover,.fa-volume-down:hover{
     color:red;
     transition: 1s;
 }
@@ -115,13 +115,14 @@ body{
 .container_social_nav{
     background-color: black;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 
 }
-.fa-facebook-square,.fa-instagram{
+.fa-facebook-square,.fa-instagram,.fa-volume-mute,.fa-volume-down{
 color: white;
 font-size:25px;
 margin-left:10px;
+user-select: none;
 }
 .about_tile{
     font-family: $font-family;
@@ -132,4 +133,8 @@ margin-left:10px;
     font-family: $font-family;
     font-size:35px;
     color:white;
+}
+.fa{
+    user-select: none;
+
 }
