@@ -145,7 +145,7 @@ body {
   font-size: 20px;
 }
 
-.fa-info:hover, .fa-caret-right:hover, .fa-facebook-square:hover, .fa-instagram:hover {
+.fa-info:hover, .fa-caret-right:hover, .fa-facebook-square:hover, .fa-instagram:hover, .fa-volume-mute:hover, .fa-volume-down:hover {
   color: red;
   -webkit-transition: 1s;
   transition: 1s;
@@ -177,15 +177,19 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.fa-facebook-square, .fa-instagram {
+.fa-facebook-square, .fa-instagram, .fa-volume-mute, .fa-volume-down {
   color: white;
   font-size: 25px;
   margin-left: 10px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .about_tile {
@@ -198,5 +202,12 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 35px;
   color: white;
+}
+
+.fa {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 /*# sourceMappingURL=main.css.map */

@@ -13,12 +13,13 @@
 </head>
 <body>
   <nav class="container container_social_nav">
+      <a href="#noscroll" id="mute"><i onclick="myFunction(this)" class="fas fa-volume-mute"></i></a>
 <div class="social_link">
   <a href="#"><i class="fab fa-facebook-square"></i></a>
   <a href="#"><i class="fab fa-instagram"></i></a></nav>
 </div>
-    <audio autoplay loop>
-    <source src="https://www.soundjay.com/human/heartbeat-01a.mp3">
+    <audio id="background_audio" autoplay loop>
+    <source src="https://www.soundjay.com/human/heartbeat-01a.mp3"/>
     Niestety nie usłyszysz bicia serca,twoją przeglądarka nie wspiera <code>audio</code> ale to nic jest jeszcze animacja.
   </audio>
   <section class="home">
@@ -43,5 +44,18 @@
   <section class="next">
   <a href="#offer"><i class="fas fa-caret-right"></i></a>
   </section>
-</body>
-</html>
+  <script>
+  var audio = document.getElementById('background_audio');
+  document.getElementById('mute').addEventListener('click', function (e)
+  {
+  e = e || window.event;
+  audio.muted = !audio.muted;
+  e.preventDefault();
+  }, false);
+  function myFunction(x) {
+  x.classList.toggle("fa-volume-down");
+} 
+  </script>
+  </body>
+
+  </html>
