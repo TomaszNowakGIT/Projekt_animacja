@@ -11,6 +11,7 @@ html{
 }
 body{
     background-color: black;
+    user-select: none;
 }
 .container{
     max-width: 960px;
